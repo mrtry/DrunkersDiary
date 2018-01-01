@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "outDir": "artifacts",
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
+  },
+  "filesGlob": [
+    "typings/index.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "types": [
+    "react",
+    "react-native",
+    "jest"
+  ],
+  "exclude": [
+    "android",
+    "ios",
+    "build",
+    "node_modules",
+    "**/__tests__/*",
+    "**/__mocks__/*",
+    "**/__snapshots__/*",
+    "**/*.spec.*"
+  ],
+  "compileOnSave": false
+}
