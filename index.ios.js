@@ -1,1 +1,1 @@
-import './lib/index.ios';
+import './artifacts/index.ios';
